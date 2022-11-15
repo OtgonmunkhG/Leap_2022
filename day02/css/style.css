@@ -1,0 +1,19 @@
+.hover_container {
+    background-color: dodgerblue;
+}
+.detail:hover {
+    transition-duration: 0.5s;
+    border:  0.5px dodgerblue solid;
+}
+input {
+    background-image: url("../pngtree-vector-search-icon-png-image_320926.jpeg");
+    width: 20px;
+    border-radius: 20px;
+}
+input:focus {
+    transition-delay: 0.3s;
+    transition-duration: 0.5s;
+    transition-property: width ;
+    transition-timing-function: linear;
+    width: 100px;
+}

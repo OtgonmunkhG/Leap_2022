@@ -1,0 +1,34 @@
+body {
+    background-color: blue;
+}
+img {
+   height: 500px;
+   width: 1400px;
+}
+.text-container {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: pink ;
+    }
+    img {
+        background-color: bisque;
+        max-width: 1500px;
+        
+    }
+    #text-1 {
+        display: none;
+    }
+}
+@media only screen and (max-width:576px) {
+    body {
+        background-color: aqua;
+    }
+    #text-2 {
+
+        display: none;
+    }
+}
