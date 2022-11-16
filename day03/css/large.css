@@ -1,0 +1,7 @@
+body {
+    background-color: blueviolet;
+    text-align: center;
+}
+body::after {
+    content: "1400px - ээс их болон тэнцүү үед = xxl (extra extra large)";
+}

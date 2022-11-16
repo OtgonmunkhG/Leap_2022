@@ -1,0 +1,31 @@
+body {
+    background-color: brown;
+}
+
+@media only screen and (max-width:1400px) {
+    body {
+        background-color: aqua;
+        text-align: center;
+        
+    }
+    .text-3, .text-2, .text-4, .text-5 {
+        display: none;
+        
+    }
+    body::after {
+        content: "1400px - ээс их болон тэнцүү үед = xxl (extra extra large)" ;
+      
+    }
+}
+@media only screen and (max-width:1200px) {
+    body {
+        background-color: blue;
+        text-align: center;
+    }
+    body::after {
+        content: "1200px - ээс их болон тэнцүү үед = xl (extra large)";
+    }
+} 
+@media only screen and (max-width:992px) {
+
+}
