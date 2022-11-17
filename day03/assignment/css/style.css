@@ -2,32 +2,20 @@ body {
     background-color: aliceblue;
 }
 
-/* .column_container {
-    display: flex;
-} */
-/* .column  {
-    width: 14%;
-
-    float: left;
-    padding: 10px;
-
-}
-
-.column img {
-    height: 120px;
-    border-radius: 20px;
-    padding: 10px;
-    object-fit: cover;
-
-} */
-.container img {
+img {
     width: 16%;
-    border-radius: 10px;
-    /* float: left; */
+    border-radius: 1em;
 }
-.row {
+.row-container {
+     
+}
+.row-detail {
     display: flex;
-    height: 200px;
-    margin-top: 10px;
-    border-radius: 10px;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.aside {
+    background-color: rgb(224, 218, 218);
+    border-radius: 1rem;
+    padding: 1rem;
 }
