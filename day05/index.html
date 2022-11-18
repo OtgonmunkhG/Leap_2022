@@ -6,7 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alert</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
+    <style>
+      img {
+        width: 20px;
+        height: 40px;
+      }
+      .container {
+        display: inline;
+      }
+      .list {
+        display: none;
+      }
+      .container:hover .list {
+        display: block;
+      }
+
+    </style>
   
 </head>
 <body>
@@ -16,16 +31,19 @@
       <div class="alert alert-danger" role="alert">
         simple primary alert-check it out
       </div>
+      
     <div class="container">
       <img  src="./img/Hamburger_icon.svg.png" alt="">
       <div class="dropdwon">
-        <ul class="list-group">
+        <div class="list">
+         <ul class="list-group">
           <li class="list-group-item">An item</li>
           <li class="list-group-item">An item</li>
           <li class="list-group-item">An item</li>
           <li class="list-group-item">An item</li>
 
-        </ul>
+         </ul>
+        </div>
       </div>
     </div>
 
