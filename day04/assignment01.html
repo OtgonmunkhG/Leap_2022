@@ -6,24 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  
+    <style>
+      .btn-container {
+        display: inline;
+      }
+      .list{
+        display: none;
+      }
+      .btn-container:hover .list {
+        display: block;
+      }
+      .img-container {
+        display: inline;
+      }
+      .links {
+        display: none;
+      }
+      .img-container:hover .links {
+        display: block;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row d-flex">
-            <div class="col bg-secondary">Name
-                <div class="row">
-                    <div class="col-8 bg-primary">menus</div>
-                    <div class="col-4 bg-info">dropdown</div>
+    <div class="container d-lg-block">
+      <div class="row text-white">
+    
+            <div class="col-3 bg-dark border ">Aurora</div>
+            <div class="col-6 bg-primary d-none d-sm-block border">menus</div>
+            <div class="col-3 dropdown bg-secondary text-center border">
+              <div class="btn-container">
+                <button class="btn btn-secondary" >
+                    dropdown
+                </button>
+               <div class="list">
+                <ul>
+                    <li> <a href="#" class="dropdown-item"></a> </li>
+                    <li> <a href="#" class="dropdown-item"></a> </li>
+                    <li> <a href="#" class="dropdown-item"></a> </li>
+                </ul>
+               </div>
+              </div>
+            </div>
+      </div>
+     
+    <div class="container d-sm-none  mt-1">
+        <div class="row bg-primary text-dark text-center border">Menus</div>
+    </div>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-4 d-lg-block d-none d-md-none bg-info   m-1">
+                <div class="col ">
+                    <div class="img-container">
+                       <img src="./img/IMG_0228dakotalapse.jpeg" class="img-fluid"  alt="">
+                       <div class="links">
+                        <ul>
+                               <li><a href="#">Read more</a></li>
+                               <li><a href="#">Read more</a></li>
+                               <li><a href="#">Read more</a></li>
+                        </ul>
+                        
+                       </div>
+                    </div>
                 </div>
+             
+
+            </div>
+            <div class="col-8 bg-info m-1">
+                
             </div>
         </div>
     </div>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    <div class="container ">
+        <div class="row">
+            <div class="col-3 d-none d-lg-none d-md-block bg-info">
+                <img src="./img/IMG_0228dakotalapse.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-3 d-none d-lg-none d-md-block text-center bg-info">
+                <a href="#">Read more</a>
+            </div>
+            <div class="col-3 d-none d-lg-none d-md-block text-center bg-info">
+                <a href="#">Read more</a>
+            </div>
+            <div class="col-3 d-none d-lg-none d-md-block text-center bg-info">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col  d-md-none d-sm-block d-lg-none ">
+                <div class="img-container">
+                   <img src="./img/IMG_0228dakotalapse.jpeg" class="img-fluid"  alt="">
+                   <div class="links bg-info">
+                    <ul>
+                           <li><a href="#">Read more</a></li>
+                           <li><a href="#">Read more</a></li>
+                           <li><a href="#">Read more</a></li>
+                    </ul>
+                    
+                   </div>
+                </div>
+            </div>
+        </div>
         
-    </script>
+    </div>
+
+
 </body>
 </html>
