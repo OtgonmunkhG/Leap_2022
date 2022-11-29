@@ -193,20 +193,46 @@
 
 
 
-const n = prompt("Please give me some number");
-console.log(n)
+// const n = prompt("Please give me some number");
+// console.log(n)
 
-if(n < 0){
-    console.log("negative");
-}
-else if (n > 0){
-    console.log("positive");
-}
+// if(n < 0){
+//     console.log("negative");
+// }
+// else if (n > 0){
+//     console.log("positive");
+// }
 
-let input = prompt('data');
-if (Number(input) == NaN){
-    alert('number');
+// let input = prompt('data');
+// if (Number(input) == NaN){
+//     alert('number');
+// }
+// else{
+//     console.log(Number(input));
+// }
+
+// //dasgal01
+
+const count = prompt("Please give me count");
+let countNumber = Number(count);
+console.log(countNumber);
+
+
+switch(Number){
+    case 100:
+        count = '+A';
+        break;
+    case 90:
+        count = '-A';
+        break;
+    case 80:
+        count = 'B';
+        break;
+    case 70:
+        count = 'C';
+        break;
+    case 60:
+        count = 'F';
+        break;
 }
-else{
-    console.log(Number(input));
-}
+console.log(countNumber);
