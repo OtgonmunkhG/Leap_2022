@@ -45,9 +45,11 @@ console.log(b);
 
 let message = 'Hi, Iadded ';
 let plus = " + "
+let it = "it's"
 console.log(message);
 console.log(message + b + c);
 alert(message + b + plus + c);
+
 
 
 let text = "Iadded";
