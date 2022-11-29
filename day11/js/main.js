@@ -214,25 +214,20 @@
 // //dasgal01
 
 const count = prompt("Please give me count");
-let countNumber = Number(count);
-console.log(countNumber);
+console.log(count);
 
-
-switch(Number){
-    case 100:
-        count = '+A';
-        break;
-    case 90:
-        count = '-A';
-        break;
-    case 80:
-        count = 'B';
-        break;
-    case 70:
-        count = 'C';
-        break;
-    case 60:
-        count = 'F';
-        break;
+if(count == 100){
+    console.log("+A");
 }
-console.log(countNumber);
+else if(count >= 90){
+    console.log("-A");
+}
+else if(count >= 80){
+    console.log("B");
+}
+else if(count >= 70){
+    console.log("C");
+}
+else if(count <= 60){
+    console.log("F");
+}
