@@ -213,21 +213,87 @@
 
 // //dasgal01
 
-const count = prompt("Please give me count");
-console.log(count);
+// const count = prompt("Please give me count");
+// console.log(count);
 
-if(count == 100){
-    console.log("+A");
+// if(count == 100){
+//     console.log("+A");
+// }
+// else if(count >= 90){
+//     console.log("-A");
+// }
+// else if(count >= 80){
+//     console.log("B");
+// }
+// else if(count >= 70){
+//     console.log("C");
+// }
+// else if(count <= 60){
+//     console.log("F");
+// }
+
+// let month = prompt("Please give me random month number");
+// let monthNumber = Number (month);
+// console.log(typeof(monthNumber));
+
+// console.log(typeof(month));
+// let dayNumber;
+
+// switch(monthNumber){
+//     case 1:
+//         dayNumber = "31";
+//         break;
+//     case 2:
+//         dayNumber = "28";
+//         break;
+    
+    
+//         default:
+//         monthNumber = "ivnvalid month";
+    
+
+      
+
+// }
+// console.log(monthNumber);
+
+
+let month = prompt("Please give me random month number");
+console.log(month);
+
+if(month == 1){
+    console.log("31");
 }
-else if(count >= 90){
-    console.log("-A");
+else if(month == 2){
+    console.log("28 or 29");
 }
-else if(count >= 80){
-    console.log("B");
+else if(month == 3){
+    console.log("31");
 }
-else if(count >= 70){
-    console.log("C");
+else if(month == 4){
+    console.log("30");
 }
-else if(count <= 60){
-    console.log("F");
+else if(month == 5){
+    console.log("31");
+}
+else if(month == 6){
+    console.log("30");
+}
+else if(month == 7){
+    console.log("31");
+}
+else if(month == 8){
+    console.log("31");
+}
+else if(month == 9){
+    console.log("30");
+}
+else if(month == 10){
+    console.log("31");
+}
+else if(month == 11){
+    console.log("30");
+}
+else if(month == 12){
+    console.log("31");
 }
