@@ -170,7 +170,20 @@ else{
 }
 
 
+console.log("Hello I am 'Angel Here' \n I am '17 here' years old \n \t This is the new line with tab and some \\ .")
 
+const sequence = prompt("Please give me date");
 
+const O = "Otgonmunkh";
+const G = "Gerelbaatar";
+console.log(O.length);
+console.log(G.length);
+console.log(O.toUpperCase());
+console.log(G.toLowerCase());
+
+let A = "Pinecone academy- нь ";
+let guade = A.concat('Leap хөтөлбөрт тавтай морилно уу?');
+console.log(A);
+console.log(guade);
 
 
