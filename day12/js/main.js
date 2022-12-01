@@ -185,5 +185,10 @@ let A = "Pinecone academy- нь ";
 let guade = A.concat('Leap хөтөлбөрт тавтай морилно уу?');
 console.log(A);
 console.log(guade);
-
+//naluugiin urt
+const a = Number (prompt("Please give me number"));
+const b = Number(prompt("Please give me again number"));
+console.log(a, b);
+let c = (a ** 2) + (b ** 2);
+console.log(c);
 
