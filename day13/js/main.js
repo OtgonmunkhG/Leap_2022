@@ -144,8 +144,88 @@ while (count <= g){
 }
 
 
-//max = 10 , count = 1 , sum = 0 
-//interation 1: count = 1
+// g = 10 , count = 0 , sum = 0 
+// // interation 1: count = 0
+// count = count + 1; //1
+// sum = sum + count; // 0 + 1 = 1
+// console.log(count); //1
+// console.log(sum); //1
+
+
+// // interation 2 : 
+// count = 1, sum = 0
+// count = count + 1 ; // 2
+// sum = sum + count + 1; //2
+// console.log(count);
+// console.log(sum); 
+//interaction 3
+// count = 2, sum = 0;
+// count = count + 1; //3
+// sum = sum + count; //3
+// console.log(count);
+// console.log(sum);
+
+
+//interaction 3 :
+// count = 3; sum = 0;
+// count = count + 1; //4
+// sum = sum + count; //4
+// console.log(count);
+// console.log(sum);
+//interaction 4:
+// count = 4, sum = 0;
+// count = count + 1; //5
+// sum = sum + count; //5
+// console.log(count);
+// console.log(sum);
+
+// //interaction 5:
+
+// count = 5, sum = 0;
+// count = count + 1 ; //6
+// sum = sum + count ; //6
+// console.log(count);
+// console.log(sum);
+
+
+// // interaction 6:
+// count = 6, sum = 0;
+// count = count + 1 ; //7
+// sum = sum + count ; //7
+// console.log(count);
+// console.log(sum);
+
+// //interaction 7:
+// count = 7, sum = 0;
+// count = count + 1 ; //8
+// sum = sum + count; //8
+// console.log(count);
+// console.log(sum);
+
+// // interaction 8:
+// count = 8, sum = 0;
+// count = count + 1; //9
+// sum = sum + count; //9
+// console.log(count);
+// console.log(sum);
+
+// //interaction 9 :
+// count = 9, sum = 0;
+// count = count + 1; //10
+//  sum = sum + count; //10
+//  console.log(count);
+//  console.log(sum);
+
+//  //interaction 10 :
+//  count = 10, sum = 0;
+//  count = count + 1; //11
+//  sum = sum + count; //11
+//  console.log(count);
+//  console.log(sum);
+
+
+
+
 
 
 
