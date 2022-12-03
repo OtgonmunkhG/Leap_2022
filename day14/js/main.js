@@ -5,7 +5,7 @@
 const max = 10;
 let start = 1;
 
-// while(start <= 10){
+// while(start <= max){
 //     if(start % 2 == 0){
 //         console.log(start);
 //     }
