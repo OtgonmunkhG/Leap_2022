@@ -65,11 +65,36 @@ console.log(k);
 //anhnii too
 
 
-const U = Number (prompt("Please give a number"));
+// const U = Number (prompt("Please give a number"));
 
-// while(U > 0){
-//     if(U % U == 0 && U % 1 == 0){
+// while(U % U == 0 && U % 1 == 0){
+    
 //         console.log(U);
-//     }
+    
     
 // }
+
+// for( ; U % U == 0 && U % 1 == 0;   ){
+//     console.log(U);
+// }
+
+//ugsun interval dahi anhnii toog programm bich
+
+// let x = Number (prompt("Give a number"));
+// let y = Number(prompt("give me a number"));
+
+
+
+
+//Urjwer oloh
+
+let w = Number(prompt("give me a w"));
+while(w <= 100){
+      w = w * w - 1;
+      w = w + 1;
+     console.log(w);
+
+}
+
+
+
