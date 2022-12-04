@@ -155,7 +155,7 @@ while (count <= g){
 // // interation 2 : 
 // count = 1, sum = 0
 // count = count + 1 ; // 2
-// sum = sum + count + 1; //2
+// sum = sum + count; //2
 // console.log(count);
 // console.log(sum); 
 //interaction 3

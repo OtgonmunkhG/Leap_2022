@@ -3,7 +3,6 @@
 let max = 10;
 let count = 0;
 while(count < 10){
-    sum = sum + count;
     count = count + 1;
     console.log(count);
 
@@ -37,12 +36,40 @@ while(r <= n){
     r = r + 1;
 }
 
+//100 hurteleh toonii niilber
+
+let o = 1;
+let nermouse = 100;
 let sum = 0;
-let i = 0;
-let u = 100;
-while(i <= u){
+while(o <= nermouse){
+    // console.log(o);
+    sum = sum + o;
+    o = o + 1;
     
-    i = i + 1;
-    sum = sum + i;
-    console.log(sum);
 }
+console.log(sum);
+
+// N hurteleh toonii programm
+
+let N = Number (prompt("Please give me a number"));
+let e = 0;
+let k = 0;
+
+while(e <= N){
+    k = k + e;
+    e = e + 1;
+    console.log(e);
+}
+console.log(k);
+
+//anhnii too
+
+
+const U = Number (prompt("Please give a number"));
+
+// while(U > 0){
+//     if(U % U == 0 && U % 1 == 0){
+//         console.log(U);
+//     }
+    
+// }
