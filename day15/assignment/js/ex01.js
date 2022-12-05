@@ -25,12 +25,24 @@ for(let i = 0; i < sequeren.length ; i++){
 }
 
 let OfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 11];
+let max = -1;
+
+for(let i = 0; i < OfNumbers.length; i ++){
+    if(max <= OfNumbers [i]){
+        max = OfNumbers[i];
+        console.log(max);
+    }
+}
+
 
 sum = 0;
 for(let a = 0; a < OfNumbers.length; a++){
     sum = sum + OfNumbers[a];
     console.log(sum);
+    OfNumbers [a] 
 }
+
+ 
 
 //given number if arrays = 1, 2, 5, 6, 7, 8
 //output new arrays = 2, 3, 6, 4, 6, 7, 8, 9
@@ -45,3 +57,11 @@ for(let b = 0; b < arrays.length; b++){
    
 
 }
+
+for(let c = 0; c < arrays.length; c++){
+    arrays [c] = arrays [c] * 2;
+    console.log(arrays[c]);
+}
+
+
+
