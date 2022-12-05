@@ -34,6 +34,14 @@ for(let i = 0; i < OfNumbers.length; i ++){
     }
 }
 
+let min = 0;
+for(let l = 0; l < OfNumbers.length; l++){
+    if(min >= OfNumbers [l]){
+       min = OfNumbers [l];
+       console.log(min);
+    }
+}
+
 
 sum = 0;
 for(let a = 0; a < OfNumbers.length; a++){
@@ -62,6 +70,7 @@ for(let c = 0; c < arrays.length; c++){
     arrays [c] = arrays [c] * 2;
     console.log(arrays[c]);
 }
+
 
 
 
