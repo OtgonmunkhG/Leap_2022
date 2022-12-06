@@ -74,3 +74,31 @@ for(let c = 0; c < arrays.length; c++){
 
 
 
+//toonii niilber
+let input = Number(prompt("Give a number"));
+
+
+sum = 0;
+for(let a = 1; a <= input; a++){
+    sum = sum + a;
+    console.log(sum);
+    
+}
+
+let w = 0;
+let q = 100;
+
+while(w <= q){
+    if(w % 2 == 0){
+        console.log(w);
+       
+    }
+    w = w + 1;
+}
+
+//toonii urt
+let arr = Number(prompt("Give me a number"));
+for(let z = 0; z <= arr.length; ){
+    console.log(arr[z]);
+    console.log(arr.length);
+}
