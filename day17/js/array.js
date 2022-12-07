@@ -164,3 +164,7 @@ const poppArrayResult = [3, 4, 5]
 poppArrayResult.pop();
 console.log(poppArrayResult);
 
+const poppExample = [1, 2, 3, 19];
+poppExample.pop();
+console.log(poppExample);
+
