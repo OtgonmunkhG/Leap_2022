@@ -66,5 +66,6 @@ for(let i = 0; i < numbers.length; i++){
 }
 console.log(numbers);
 
-console.log(Math.sqrt(4));    //funtion dahin ashiglaj boldog
+console.log(Math.sqrt(4));    
+//funtion dahin ashiglaj boldog
 
