@@ -48,14 +48,15 @@ console.log(array.splice(0, 6));
 
 //middle
 
-// `let middle = array.length / 2;
-// if(array.length % 2 == 0){
-//     array.splice(middle - 1, 2);
-// } else{
-//     array.splice(middle, 1);
-// }
-// console.log(array);`
-
+let middle = array.length / 2;
+if(array.length % 2 == 0){
+    array.splice(middle - 1, 2);
+    console.log(middle);
+    
+} else{
+    array.splice(middle, 1);
+}
+console.log(array);
 
 
 
