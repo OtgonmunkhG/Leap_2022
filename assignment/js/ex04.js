@@ -38,7 +38,7 @@ function findStudentsSmilarAge(array, studentsAge){
         if(array[i].age === studentsAge){
             console.log(`${array[i].age} ${array[i].age} ${array[i].age} ${array[i].age} ${array[i].age}`);
         }
-        console.log(array[i].age);
+        console.log(array[i].age.slice());
     }
 }
 
