@@ -5,28 +5,41 @@
  * ижилхэн настай сурагчдыг олж шинэ array дотор хийх
  * 
  */
-function howAreTheirAge (array){
+function howAreTheirAge (array, studentsGender){
     for(let i = 0; i < array.length; i++){
-     
-            console.log(array[i].gender);
+     if(array[i].gender === studentsGender){
+        console.log(`${array[i].gender} ${array[i].gender} ${array[i].gender} ${array[i].gender} ${array[i].gender}`);
+     }
+           console.log(array[i].gender);
         
     
     }
 }
-function findStudentsAgeAverage(array){
+function findStudentsAgeAverage(array, studentsAge){
     for(let i = 0; i < array.length; i++){
         // let average  = array[i].age / array.length;
         // console.log(average);
-            let ageSum = array[i].age + array[i].age + array[i].age + array[i].age + array[i].age + array[i].age;
-            // console.log(ageSum);
-           
+        let ageSum = 0;
+            
+            ageSum = array[i].age + array[i].age + array[i].age + array[i].age + array[i].age + array[i].age;
+            console.log(ageSum);
             let average = ageSum / array.length;
             console.log(average);
+      
+           
         
     }
    
    
   
+}
+function findStudentsSmilarAge(array, studentsAge){
+    for(let i = 0; i < array.length; i++){
+        if(array[i].age === studentsAge){
+            console.log(`${array[i].age} ${array[i].age} ${array[i].age} ${array[i].age} ${array[i].age}`);
+        }
+        console.log(array[i].age);
+    }
 }
 
 
@@ -62,3 +75,4 @@ let students = [ {
 
 howAreTheirAge(students);
 findStudentsAgeAverage(students);
+findStudentsSmilarAge(students);
