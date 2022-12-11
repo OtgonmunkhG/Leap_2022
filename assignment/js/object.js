@@ -1,5 +1,32 @@
 
 
+function  findHighScore (array, usersPoints){
+
+  for(let i = 0; i < array.length ; i++){
+   
+    if(array[i].points >= 50){
+      console.log(`${array[i].points} \n ${array[i].points} \n ${array[i].points}`);
+    }
+  
+  }
+
+}
+function findSkills (array, usersSkills){
+  for(let i = 0; i < array.length; i++){
+    if(array[i].skills ===  'JavaScript', 'MongoDB', 'Express', 'React', 'Node'){
+      console.log(`${array[i].skills}`);
+    }
+  }
+}
+
+function findOldYear (array, usersAge){
+  for(let i = 0; i < array.length; i++){
+    if(array[i].age >= 39){
+      console.log(`${array[i].name} ${array[i].email} ${array[i].skills} ${array[i].age} ${array[i].isLoggedIn} ${array[i].points}`);
+    }
+  }
+}
+
 const users = [
 {
     name:   'Alex', 
@@ -61,7 +88,13 @@ const users = [
   }
    
 
-} ,
+}
 
 ];
-users.introduction();
+console.log(users[0]);
+console.log( `${users[1].name} "Энэ хүн нь хамгийн их ур чадвартай хүн юм." ${users[1].skills}`);
+
+findOldYear(users);
+findSkills(users);
+
+findHighScore(users);
