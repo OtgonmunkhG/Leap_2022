@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+.form_container {
+    max-width: 650px;
+    border: 1px solid gray;
+    margin: 0 auto;
+} 
+input {
+    margin: 0 auto;
+    width: 250px;
+    margin: 10px 0;
+
+}
+#beautiful_form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}

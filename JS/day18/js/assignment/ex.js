@@ -41,27 +41,22 @@ let arrayReverse = array.reverse();
 console.log(array);
 
 //remove pop
-let newArray = array.slice(0, 6)
-console.log(newArray);
-
+console.log(array.splice(0, 6));
 
 
 
 
 //middle
 
-newArray.splice(2, 2);
-console.log(newArray);
-
-
-newArray.pop();
-console.log(newArray);
-let remove = newArray.splice();
-console.log(remove);
-
-
-
-
+let middle = array.length / 2;
+if(array.length % 2 == 0){
+    array.splice(middle - 1, 2);
+    console.log(middle);
+    
+} else{
+    array.splice(middle, 1);
+}
+console.log(array);
 
 
 

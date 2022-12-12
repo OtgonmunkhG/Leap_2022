@@ -2,7 +2,7 @@ function findAllPrice(array, dataTotalPrice){
 
     for(let i = 0; i < array.length; i++){
        let sum = 0;
-       sum = sum + array[i].totalPrice + array[i].totalPrice + array[i].totalPrice + array[i].totalPrice + array[i].totalPrice+ array[i].totalPrice + array[i].totalPrice + array[i].totalPrice + array[i].totalPrice + array[i].totalPrice;
+       sum = sum[i] + array[i].totalPrice + array[i].totalPrice + array[i].totalPrice + array[i].totalPrice + array[i].totalPrice+ array[i].totalPrice + array[i].totalPrice + array[i].totalPrice + array[i].totalPrice + array[i].totalPrice;
        console.log(sum);
     }
     

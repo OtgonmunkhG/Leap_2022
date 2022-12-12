@@ -1,0 +1,11 @@
+.information_pa {
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+}
+.priv_container {
+   display: flex;
+}
+input {
+   border: none;
+}
