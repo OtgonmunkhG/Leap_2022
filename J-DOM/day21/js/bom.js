@@ -40,6 +40,10 @@ function runTimerInterval (){
     window.setInterval(startInterval, 1000);
 
 }
+setTimeout(() => {
+    console.log("life runnig out move !");
+    
+}, 1000);
 
  function startInterval(){
     let now = new Date();
