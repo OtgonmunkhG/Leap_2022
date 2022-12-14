@@ -52,3 +52,5 @@ setTimeout(() => {
     console.log(counter);
     counter++;
  }
+ //callback function 
+ 
