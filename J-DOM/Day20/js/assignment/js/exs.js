@@ -38,3 +38,4 @@ for(let i = 0; i < document.getElementById("aimagNames").getElementsByTagName("l
     }
     
 }
+console.log("new");
