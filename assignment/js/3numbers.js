@@ -1,8 +1,8 @@
-console.log("гурван тоон ");
+console.log("гурван тоо ");
 
-let a = 89;
-let b = 45;
-let c = 10;
+let a = 98;
+let b = 9;
+let c = 93;
 if(a > b && a > c ){
     console.log(a);
 } else if(b > a && b > c){
@@ -10,7 +10,10 @@ if(a > b && a > c ){
 } else {
     console.log(c);
 }
-let max = 0;
-while(max <= a ){
+if(a < b && a < c){
     console.log(a);
+} else if(b < a && b < c) console.log(b);
+else if(a == b && b == c){
+    console.log(a, b, c);
 }
+else console.log(c);
