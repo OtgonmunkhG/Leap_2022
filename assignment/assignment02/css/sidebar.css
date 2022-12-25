@@ -1,0 +1,32 @@
+.container {
+    background-color: black;
+    padding:  10px 0;
+    width: 100px;
+    text-align: center;
+}
+.politecal ,
+.social ,
+.sport {
+    background-color: rgb(17, 248, 171);
+   
+    height: 80px;
+    margin: 10px 0;
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+.container:hover {
+    width: 80vh ;
+}
+.politecal:hover {
+    background-color: aliceblue;
+    font-size: 2em;
+} 
+.social:hover {
+    background-color: aliceblue;
+    font-size: 2em;
+}
+.sport:hover {
+    background-color: aliceblue;
+    font-size: 2em;
+}
