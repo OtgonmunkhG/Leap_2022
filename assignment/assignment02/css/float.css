@@ -2,103 +2,73 @@ body {
     background-color: white;
 }
 .container {
-    border: 2px solid black;
-    background-color: white;
+    margin: 0 auto;
+    border: 2px solid rgb(30, 30, 30);
+    width: 500px;
     height: 500px;
-    padding-top: 210px;
     box-sizing: border-box;
     position: relative;
-    margin: 0;
+    padding: 150px ;
+    background-color: rgb(243, 242, 242);
    
 }
-.box4{
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    align-items: center;
-}
-.box {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-
-}
-.box1 {
-    background-color: white;
-    height: 50px;
-    width: 50px;
-    box-shadow: -2px 1px 3px ;
-}
-.box1:first-child {
-    box-shadow: 2px 1px 3px;
-}
-.box2 {
-    background-color: white;
-    height: 50px;
-    width: 50px;
-    box-shadow: -2px 1px 3px;
-  
-}
-.box2:first-child {
-    box-shadow: 2px 1px 3px ;
-}
-.detail:first-child {
-    background-color: palevioletred;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-}
-.detail {
-    background-color: palevioletred;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: 0;
-    right: 0;
-
-}
-.detail2:first-child {
-    background-color: palevioletred;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-.detail2:last-child {
-    background-color: palevioletred;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    }
-.ls:hover {
-    position: absolute;
-    top: 50%;
-    right: 50% ;
+.box-con {
     margin: 0 auto;
-    margin-top: 25px;
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.container:hover .box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 4px 7px;
     
-  
+}
+.ls {
+    margin: 0 auto;
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+    gap: 5px;
+ 
+}
+.ls * {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
 
 }
- .detail:first-child:hover {
+.container:hover .detail1 {
+    background-color: aquamarine;
     position: absolute;
-    top: 40%;
-    right: 40%;
-    
-} 
-.detail2:hover {
+    bottom: 0;
+    right: 0;
+    transition: all 0.2s ease-in-out;
+}
+.container:hover .detail2 {
+    background-color: aquamarine;
     position: absolute;
-    top: 40%;
-    right: 40%;
-} 
+    bottom: 0;
+    left: 0;
+}
+.container:hover .detail3 {
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container:hover .detail4 {
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
 
 
 
