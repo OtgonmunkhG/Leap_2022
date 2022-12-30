@@ -9,6 +9,9 @@ body {
     position: absolute;
     
 }
+.container:active {
+    background-color: rgb(40, 153, 153);
+}
 .circle {
     display: block;
     border-radius: 50%;
@@ -20,17 +23,15 @@ body {
     box-sizing: border-box;
    
 }
-.container:hover {
-    background-color: rgb(40, 153, 153);
-    border: none;
-    box-sizing: border-box;
-    height: 42px;
-
+.container:hover .circle {
+    position: relative;
+    background-color: bisque;
+    right: 0;
 }
-.circle:hover {
+/* .circle:hover {
     position: relative;
     bottom: 0;
     right: 0;
     background-size: contain;
 
-}
+} */
