@@ -2,9 +2,33 @@
     background-image: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+.first-section {
+    border: 2px solid grey;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.first-section h6 {
+    position: absolute;
+    top: -33px;
+    left: 10px;
+}
+.first-section input {
+    border: none;
+}
+.first-section:hover input {
+    border: 1px solid green;
+}
+.container p , 
+h1 {
     text-align: center;
     line-height: 1.4px;
-    color: white;
-    
-
+}
+.container input {
+    width: 400px;
 }

@@ -1,0 +1,61 @@
+h1 {
+    background-color: peru;
+    margin: 0 auto;
+    text-align: center;
+}
+.container {
+    display: flex;
+    gap: 3px;
+    height: 100vh;
+}
+.section1,
+.section2,
+.section3,
+.section4,
+.section5 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.image {
+    height: 80vh;
+    flex: 1;
+    border-radius: 30px ;
+    position: relative;
+    transition: all 500ms ease-out;
+    cursor: pointer;
+}
+.section1 {
+    background-image: url('https://images.pexels.com/photos/13945391/pexels-photo-13945391.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    width: 40vw;
+    
+}
+.section2 {
+    background-image: url('https://images.pexels.com/photos/11987710/pexels-photo-11987710.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    width: 15vw;
+}
+.section3 {
+    background-image: url('https://images.pexels.com/photos/14784846/pexels-photo-14784846.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    width: 15vw;
+}
+.section4 {
+    background-image: url('https://images.pexels.com/photos/10812288/pexels-photo-10812288.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    width: 15vw;
+}
+.section5 {
+    background-image: url('https://images.pexels.com/photos/6013041/pexels-photo-6013041.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    width: 15vw;
+}
+.image .active h4 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 16px;
+    opacity: 0.1px;
+}
+.active {
+    flex: 5;
+}
