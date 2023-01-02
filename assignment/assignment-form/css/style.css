@@ -11,7 +11,8 @@
     border: 2px solid grey;
     max-width: 500px;
     margin: 0 auto;
-    position: relative;
+    position: relative; 
+    padding: 20px;
 }
 .first-section h6 {
     position: absolute;
@@ -30,5 +31,6 @@ h1 {
     line-height: 1.4px;
 }
 .container input {
-    width: 400px;
+    width: 400px; 
+    margin: 5px;
 }
