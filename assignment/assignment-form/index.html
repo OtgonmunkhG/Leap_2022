@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,56 +8,79 @@
     <title>Huurhun udur we</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Social media хэрэглэгчийн судалгаа</h1>
-    <p>Судалгаанд оролцсон таньд баярлалаа.</p>
-    <div class="first-section">
-        <h6>Ерөнхий мэдээлэл</h6>
-        <form action="">
-            
-            <label for="Name">Нэр</label>
-            <br/>
-            <input type="text" name="Name" >
-            <br>
-            <label for="e-mail">И-мэйл</label>
-            <br>
-            <input type="text">
-            <br/>
-            <label for="age">Нас</label>
-            <br>
-            <input type="range">
-            <br/>
-        </form>
+        <p>Судалгаанд оролцсон таньд баярлалаа.</p>
+        <div class="first-section">
+            <h6>Ерөнхий мэдээлэл</h6>
+            <form action="">
+
+                <label for="Name">Нэр</label>
+                <br />
+                <input type="text" name="Name">
+                <br>
+                <label for="e-mail">И-мэйл</label>
+                <br>
+                <input type="text">
+                <br />
+                <label for="age">Нас</label>
+                <br>
+                <input type="range" min="14" max="99">
+                <br />
+            </form>
+        </div>
+        <div class="section2">
+            <h6>Social media</h6>
+            <form action="">
+                <label for="survey">
+                    Та өдөрт хэдэн цаг social media ашигладаг вэ? <br />
+                </label>
+                <select>
+                    <option value="term">
+                        1-2цаг
+                    </option>
+                    <option value="during">
+                        2-3цаг
+                    </option>
+                    <option value="">
+                        3 дээш цаг
+                    </option>
+                </select>
+                <br />
+                <div class="customer">
+                    <label for="switch">Та онлайнаар худалдан авалт хийх, дэлгүүр орж худалдан хийхийн алийн илүүд үздэг
+                        вэ?
+                    </label><br>
+                    <input type="radio" name="switch">Онлайн худалдан авалт
+                    <input type="radio" name="switch">Дэлгүүр орж худалдан авалт хийх
+                </div>
+                <br>
+                <div class="customer">
+                    <label for="poll">Та ямар social media platform ашигладаг вэ?</label><br>
+                    <input type="checkbox">Facebook
+                    <input type="checkbox">Instagram
+                    <input type="checkbox">Twitter
+                    <input type="checkbox">Robbit
+                    <input type="checkbox">Snopchat
+                    <input type="checkbox">Quaro
+                    <input type="checkbox">Youtube
+                    <input type="checkbox">Бусад
+                </div>
+
+            </form>
+        </div>
+        <div class="section3">
+            <h4>Санал хүсэлт</h4>
+            <textarea name="" id="" cols="30" placeholder="Та санал хүсэлтээ энд бичнэ үү..." rows="10"></textarea>
+            <input type="sumit" placeholder="Илгээх">
+        </div>
     </div>
-    <div class="section2">
-        <h6>Social media</h6>
-        <form action="">
-            <label for="survey">
-                Та өдөрт хэдэн цаг social media ашигладаг вэ? <br/>
-            </label>
-            <select>
-                <option value="term">
-                    1-2цаг 
-                </option> 
-                <option value="during">
-                    2-3цаг
-                </option>
-                <option value="">
-                    3 дээш цаг
-                </option>
-            </select>
-            <br/>
-            <label for="switch">Та онлайнаар худалдан авалт хийх, дэлгүүр орж худалдан хийхийн алийн илүүд үздэг вэ? 
-            </label>
-            <input type="radio" name="switch">
-            <label for="">Онлайн худалдан авалт</label>
-        </form>
-    </div>
-    </div>
-    
-    
+
+
 
 
 </body>
+
 </html>
