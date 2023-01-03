@@ -1,0 +1,24 @@
+.title {
+    background-color: rgb(243, 80, 134);
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.member {
+    border: 1px solid grey;
+    margin: 20px;
+    position: relative;
+}
+.h4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container {
+    border: 2px dashed rgb(255, 112, 112);
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
+}
