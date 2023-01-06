@@ -1,0 +1,15 @@
+@media (min-width: 576px) and (max-width: 768px) {
+    body {
+        background-color: palevioletred;
+    }
+    .third {
+        display: block;
+    }
+    .first,
+    .second,
+    .fourt,
+    .fifth,
+    .sexth {
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+@media (min-width:992px) and (max-width: 1200px){
+    body {
+        background-color: plum;
+    }
+    .fifth {
+        display: block;
+    }
+    .first,
+    .second,
+    .third,
+    .fourt,
+    .sexth {
+        display: none;
+    }
+}

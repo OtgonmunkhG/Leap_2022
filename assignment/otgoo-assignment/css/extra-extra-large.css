@@ -1,0 +1,15 @@
+@media (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        background-color: powderblue;
+    }
+    .sexth {
+        display: block;
+    }
+    .first,
+    .second,
+    .third,
+    .fourt,
+    .fifth {
+        display: none;
+    }
+}
