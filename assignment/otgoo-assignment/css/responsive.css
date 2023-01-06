@@ -1,0 +1,12 @@
+body {
+    background-color: palegoldenrod;
+}
+@media (max-width: 576px){
+    body {
+        background-color: palegreen;
+    }
+     p:first-child {
+        display: block;
+        color: aliceblue;
+    }
+}
