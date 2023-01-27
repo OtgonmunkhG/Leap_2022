@@ -1,37 +1,56 @@
-import React from "react"
-import './App.css';
-import { AiFillCaretRight } from "react-icons/ai"
-
+import React, { useEffect } from "react";
+import { useState } from "react";
+import "./App.css";
+import { AiFillCaretRight } from "react-icons/ai";
+import myData from "./data/data";
+// const url = "https://course-api.com/react-tabs-project";
 function App() {
-  const url = "https://course-api.com/react-tabs-project";
+  const [isActive, setIsActive] = useState(false);
+  // const [data, setData] = useState([]);
+
+  // useEffect(() => {
+  //   myUrl();
+  // }, []);
+  // async function myUrl() {
+  //   const FETCHED_DATA = await fetch(url);
+  //   const FETCHED_JSON = await FETCHED_DATA.json();
+  //   setData(FETCHED_JSON);
+  //   console.log(FETCHED_JSON);
+  // }
 
   return (
     <section className="container">
       <h1 className="title">Experience</h1>
-      <div className="job">
-        <div className="company-tab">
+      <div className="company-tab">
+        <a onClick={() => setIsActive(true)}>
           <h4>John</h4>
-          <h4>Smith</h4>
-          <h4>Tom</h4>
-        </div>
-        <div className="company-content">
-          <h2 className="job-title">Full Stack Web Developer</h2>
-          <p className="company-name">John</p>
-          <p className="date">December 2015 - Present</p>
-          <div className="text">
-            <AiFillCaretRight />
-            <p>Tote bag sartorial mlkshk air plant vinyl banjo lumbersexual poke leggings offal cold-pressed brunch neutra. Hammock photo booth live-edge disrupt.</p>
-          </div>
-          <div className="text">
-            <AiFillCaretRight />
-            <p>Post-ironic selvage chambray sartorial freegan meditation. Chambray chartreuse kombucha meditation, man bun four dollar toast street art cloud bread live-edge heirloom.</p>
-          </div>
-          <div className="text">
-            <AiFillCaretRight />
-            <p>Butcher drinking vinegar franzen authentic messenger bag copper mug food truck taxidermy. Mumblecore lomo echo park readymade iPhone migas single-origin coffee franzen cloud bread tilde vegan flexitarian.</p>
-          </div>
-        </div>
+        </a>
+        <h4 onClick={() => setIsActive(true)}>Smith</h4>
+        <h4 onClick={() => setIsActive(true)}>Tom</h4>
       </div>
+
+      {myData.map((d, inx) => {
+        <div className="job" key={inx}>
+          <div className="company-content">
+            <h2 className="job-title">{d.title}</h2>
+            <p className="company-name">{d.company}</p>
+            <p className="date">{d.dates}</p>
+            <div className="text">
+              <AiFillCaretRight />
+              <p>{d.duties[0]}</p>
+            </div>
+            <div className="text">
+              <AiFillCaretRight />
+              <p>{d.duties[1]}</p>
+            </div>
+            <div className="text">
+              <AiFillCaretRight />
+              <p>{d.duties[2]}</p>
+            </div>
+          </div>
+        </div>;
+      })}
+      {/* {isActive ? { data } : <div></div>} */}
     </section>
   );
 }
