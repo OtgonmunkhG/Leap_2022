@@ -1,0 +1,24 @@
+const intro = [
+  {
+    bigTitle: "Welcome to component and props corner",
+    react: "React",
+    library: "JavaScript Library",
+    name: "John Sedrick",
+    date: "Jan 4, 2023 ",
+  },
+  //   {
+  //     title: "Tech stack:",
+  //     ul: "HTML",
+  //   },
+  //   {
+  //     ul: "CSS",
+  //   },
+  //   {
+  //     ul: "JavaScript",
+  //   },
+  //   {
+  //     ul: "React",
+  //   },
+];
+
+export default intro;
